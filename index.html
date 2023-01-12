@@ -1,0 +1,255 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="./logo/devjr-logo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav>
+      <div class="main-container">
+        <div class="brand">
+          <h1>My Portfolio</h1>
+        </div>
+        <!-- <div class="brand-logo">
+          <img src="./logo/devjr-logo.png" alt="brand-logo" />
+        </div> -->
+        <div class="nav-section">
+          <div class="nav-itm">
+            <a href="#skills">Skills</a>
+          </div>
+          <div class="nav-itm">
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="nav-itm">
+            <a href="#">About</a>
+          </div>
+          <div class="nav-itm">
+            <div class="img-icon">
+              <img src="./photos/figma-profile.jpeg" alt="loading" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Intro section -->
+    <div class="intro-box">
+      <div class="profile-cnt">
+        <div class="pr-bg">
+          <img src="./photos/Vector 1.png" alt="error" />
+        </div>
+        <div class="pr-img">
+          <img src="./photos/figma-profile.jpeg" alt="loading..." />
+        </div>
+      </div>
+      <div class="intro-para">
+        <p>
+          <strong>Hello, I'm <span>Shajib Hossain</span></strong> <br />
+          I'm a full stack web developer and <br />
+          I'm working for web design and development
+        </p>
+      </div>
+    </div>
+
+    <!-- skills sections -->
+    <div class="skl-headding">
+      <h1>Let's talk about skills</h1>
+    </div>
+    <div class="skl-box-ctr" id="skills">
+      <div class="prmr-bx">
+        <div class="img-one">
+          <img src="./photos/js-logo.png" alt="Js-logo" />
+        </div>
+        <div class="skl-menu">
+          <h1>JavaScript</h1>
+        </div>
+        <div class="skl-para">
+          I'm a complete <span>JavaScript</span> programmer. I have 2years work
+          experience in <span>JavaScript</span>. <span>JavaScript</span> is
+          awesome. let's code your web with <span>JavaScript</span>
+        </div>
+      </div>
+      <div class="prmr-bx">
+        <div class="img-one">
+          <img src="photos/nodeJs.png" alt="NodeJs-logo" />
+        </div>
+        <div class="skl-menu">
+          <h1>NodeJs</h1>
+        </div>
+        <div class="skl-para">
+          <span>NodeJs</span> running web applications outside the client’s
+          browser. so that you should better use <span>NodeJs</span> for your
+          web. so this is the time for you to run your web with
+          <span>NodeJs</span>
+        </div>
+      </div>
+      <div class="prmr-bx">
+        <div class="img-one">
+          <img src="photos/react.png" alt="React-logo" />
+        </div>
+        <div class="skl-menu">
+          <h1>React</h1>
+        </div>
+        <div class="skl-para">
+          are you looking for create your single page applications.
+          <span>React</span> is the best framework for you. I have 3 years work
+          experience in <span>React</span> and made some awesome applications
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- this is form to takes user data -->
+    <div class="cnt-container">
+      <div class="cnt-from-sec">
+        <form>
+          <div class="frm-headding">
+            <h1>Fill up this form</h1>
+          </div>
+          <div class="frm-container">
+            <div class="input-dsply">
+              <div class="input-section">
+                <label for="fname">Inter your first name</label><br />
+                <input
+                  type="text"
+                  id="fname"
+                  name="fname"
+                  placeholder="First Name"
+                />
+              </div>
+
+              <div class="input-section">
+                <label for="lname">Inter your last name</label><br />
+                <input
+                  type="text"
+                  id="lname"
+                  name="lname"
+                  placeholder="Last Name"
+                />
+              </div>
+            </div>
+            <div class="input-dsply">
+              <div class="input-section">
+                <label for="email">Inter your email</label><br />
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+
+              <div class="input-section">
+                <label for="phone">Inter your phone number</label><br />
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="Phone Number"
+                />
+              </div>
+            </div>
+
+            <div class="gndr-slct">
+              <h1 for="gender">Select your gender</h1>
+            </div>
+            <div class="gender-dsply">
+              <div class="gender">
+                <input type="radio" id="male" name="gender" />
+                <label for="male">Male</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="female" name="gender" />
+                <label for="female">Female</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="other" name="gender" />
+                <label for="other">Other</label>
+              </div>
+            </div>
+
+            <div class="short-bio">
+              <label for="bio">Write a short bio</label> <br />
+              <textarea
+                name="bio"
+                id="bio"
+                cols="30"
+                rows="10"
+                placeholder="Describe  your Preferences"
+              ></textarea>
+            </div>
+            <div class="action-btn">
+              <div class="submit-btn">
+                <input type="submit" id="submit" name="submit" />
+              </div>
+              <div class="reset-btn">
+                <input type="reset" id="reset" name="reset" />
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer id="contact">
+      <div class="media-container">
+        <div class="link-tt">Connect with me</div>
+        <div class="link-dsply">
+          <div class="link-icon">
+            <a href="tel:01786072025" title="Phone"
+              ><img src="./photos/tel.png" alt="phone"
+            /></a>
+          </div>
+          <div class="link-icon">
+            <a
+              href="https://wa.me/01786072025"
+              target="_blank"
+              title="What's app"
+              ><img src="./photos/whatsapp-logo.png" alt="whatsapp"
+            /></a>
+          </div>
+          <div class="link-icon">
+            <a
+              href="https://www.facebook.com/199.20.3.so"
+              target="_blank"
+              title="Facebook"
+              ><img src="./photos/fb.png" alt="facebook"
+            /></a>
+          </div>
+          <div class="link-icon">
+            <a
+              href="https://www.m.me/199.20.3.so"
+              target="_blank"
+              title="Messenger"
+              ><img src="./photos/messenger-logo.png" alt="messenger"
+            /></a>
+          </div>
+          <div class="link-icon">
+            <a href="mailto:mdsojeeb242@gmail.com" title="Gmail"
+              ><img src="./photos/pngwing.com.png" alt="gmail"
+            /></a>
+          </div>
+          <div class="link-icon">
+            <a
+              href="https://github.com/Shajib-Dv"
+              target="_blank"
+              title="Github"
+              ><img src="./photos/github.png" alt="github"
+            /></a>
+          </div>
+        </div>
+        <div class="ftr-msg">
+          <span>&copy;Copyright 2023 all rights reserved</span> designed by
+          <strong>Sojeeb Hossain</strong>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
